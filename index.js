@@ -17,7 +17,7 @@ button.addEventListener("click", async function () {
                 if (emails) {
                     alert(emails);
                 } else {
-                    console.log("No email addresses found on this page.");
+                    alert("No email addresses found on this page.");
                 }
             }
 
